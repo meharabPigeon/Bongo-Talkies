@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD3A969E1EEF18CC28D3D992 /* Pods_Bongo_Talkies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D6CE9F369376281D43083D5 /* Pods_Bongo_Talkies.framework */; };
+		FA587489291909EC000F2042 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA587488291909EC000F2042 /* LoadingView.swift */; };
+		FA58748B29190AF7000F2042 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA58748A29190AF7000F2042 /* LoadingView.xib */; };
+		FA58748D29190F16000F2042 /* LoadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58748C29190F16000F2042 /* LoadingManager.swift */; };
+		FA58748F29192475000F2042 /* TopRatedMovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58748E29192475000F2042 /* TopRatedMovieDetails.swift */; };
+		FA58749229192F2C000F2042 /* TopRatedMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58749129192F2C000F2042 /* TopRatedMovieCell.swift */; };
+		FA587494291970ED000F2042 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA587493291970ED000F2042 /* RequestManager.swift */; };
+		FA587497291979A4000F2042 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA587496291979A4000F2042 /* Dictionary.swift */; };
+		FA587499291A0E4E000F2042 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA587498291A0E4E000F2042 /* UIImage.swift */; };
+		FA58749B291A204F000F2042 /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58749A291A204F000F2042 /* MovieDetails.swift */; };
+		FAB648812918B4D600D5CE25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB648802918B4D600D5CE25 /* AppDelegate.swift */; };
+		FAB648882918B4D600D5CE25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB648862918B4D600D5CE25 /* Main.storyboard */; };
+		FAB6488A2918B4D700D5CE25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB648892918B4D700D5CE25 /* Assets.xcassets */; };
+		FAB6488D2918B4D700D5CE25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB6488B2918B4D700D5CE25 /* LaunchScreen.storyboard */; };
+		FAB648952918B59E00D5CE25 /* ThumbnailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB648942918B59E00D5CE25 /* ThumbnailsVC.swift */; };
+		FAB648972918B5B100D5CE25 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB648962918B5B100D5CE25 /* DetailsVC.swift */; };
+		FAB6489C2918C40E00D5CE25 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6489B2918C40E00D5CE25 /* AppConstants.swift */; };
+		FAB648A62918D10500D5CE25 /* loading_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = FAB648A52918D10500D5CE25 /* loading_animation.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05AC2922986E47BE5DEFE002 /* Pods-Bongo Talkies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bongo Talkies.release.xcconfig"; path = "Target Support Files/Pods-Bongo Talkies/Pods-Bongo Talkies.release.xcconfig"; sourceTree = "<group>"; };
+		6D6CE9F369376281D43083D5 /* Pods_Bongo_Talkies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bongo_Talkies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B69CD6F5F2ABE96ABAC6E77D /* Pods-Bongo Talkies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bongo Talkies.debug.xcconfig"; path = "Target Support Files/Pods-Bongo Talkies/Pods-Bongo Talkies.debug.xcconfig"; sourceTree = "<group>"; };
+		FA587488291909EC000F2042 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		FA58748A29190AF7000F2042 /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		FA58748C29190F16000F2042 /* LoadingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingManager.swift; sourceTree = "<group>"; };
+		FA58748E29192475000F2042 /* TopRatedMovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedMovieDetails.swift; sourceTree = "<group>"; };
+		FA58749129192F2C000F2042 /* TopRatedMovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedMovieCell.swift; sourceTree = "<group>"; };
+		FA587493291970ED000F2042 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		FA587496291979A4000F2042 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		FA587498291A0E4E000F2042 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		FA58749A291A204F000F2042 /* MovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
+		FAB6487D2918B4D600D5CE25 /* Bongo Talkies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bongo Talkies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB648802918B4D600D5CE25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAB648872918B4D600D5CE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB648892918B4D700D5CE25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB6488C2918B4D700D5CE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAB6488E2918B4D700D5CE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB648942918B59E00D5CE25 /* ThumbnailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailsVC.swift; sourceTree = "<group>"; };
+		FAB648962918B5B100D5CE25 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		FAB6489B2918C40E00D5CE25 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		FAB648A52918D10500D5CE25 /* loading_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading_animation.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB6487A2918B4D600D5CE25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3A969E1EEF18CC28D3D992 /* Pods_Bongo_Talkies.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D59B4BB3DFE52DA17882720 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D6CE9F369376281D43083D5 /* Pods_Bongo_Talkies.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20FF4850F5C9FEAB4C9E85DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B69CD6F5F2ABE96ABAC6E77D /* Pods-Bongo Talkies.debug.xcconfig */,
+				05AC2922986E47BE5DEFE002 /* Pods-Bongo Talkies.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA58749029192E9A000F2042 /* Top Rated Movie Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA58749129192F2C000F2042 /* TopRatedMovieCell.swift */,
+			);
+			path = "Top Rated Movie Cell";
+			sourceTree = "<group>";
+		};
+		FA5874952919795E000F2042 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA587496291979A4000F2042 /* Dictionary.swift */,
+				FA587498291A0E4E000F2042 /* UIImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FAB648742918B4D600D5CE25 = {
+			isa = PBXGroup;
+			children = (
+				FAB6487F2918B4D600D5CE25 /* Bongo Talkies */,
+				FAB6487E2918B4D600D5CE25 /* Products */,
+				20FF4850F5C9FEAB4C9E85DC /* Pods */,
+				0D59B4BB3DFE52DA17882720 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB6487E2918B4D600D5CE25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB6487D2918B4D600D5CE25 /* Bongo Talkies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB6487F2918B4D600D5CE25 /* Bongo Talkies */ = {
+			isa = PBXGroup;
+			children = (
+				FAB648802918B4D600D5CE25 /* AppDelegate.swift */,
+				FAB6488E2918B4D700D5CE25 /* Info.plist */,
+				FAB648862918B4D600D5CE25 /* Main.storyboard */,
+				FAB6488B2918B4D700D5CE25 /* LaunchScreen.storyboard */,
+				FAB648A32918CAC000D5CE25 /* Resources */,
+				FAB6489A2918C3EB00D5CE25 /* Utility */,
+				FA5874952919795E000F2042 /* Extensions */,
+				FAB648A22918C6EC00D5CE25 /* Models */,
+				FAB6489D2918C4AD00D5CE25 /* Manager */,
+				FAB648982918C3BB00D5CE25 /* Custom Views */,
+				FAB648A12918C6C400D5CE25 /* Controllers */,
+			);
+			path = "Bongo Talkies";
+			sourceTree = "<group>";
+		};
+		FAB648982918C3BB00D5CE25 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAB648992918C3D500D5CE25 /* Loader */,
+				FA58749029192E9A000F2042 /* Top Rated Movie Cell */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		FAB648992918C3D500D5CE25 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				FA587488291909EC000F2042 /* LoadingView.swift */,
+				FA58748A29190AF7000F2042 /* LoadingView.xib */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		FAB6489A2918C3EB00D5CE25 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FAB6489B2918C40E00D5CE25 /* AppConstants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		FAB6489D2918C4AD00D5CE25 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FAB6489E2918C4B600D5CE25 /* Network */,
+				FA58748C29190F16000F2042 /* LoadingManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FAB6489E2918C4B600D5CE25 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FA587493291970ED000F2042 /* RequestManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FAB648A12918C6C400D5CE25 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAB648942918B59E00D5CE25 /* ThumbnailsVC.swift */,
+				FAB648962918B5B100D5CE25 /* DetailsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FAB648A22918C6EC00D5CE25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA58748E29192475000F2042 /* TopRatedMovieDetails.swift */,
+				FA58749A291A204F000F2042 /* MovieDetails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAB648A32918CAC000D5CE25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAB648892918B4D700D5CE25 /* Assets.xcassets */,
+				FAB648A42918D09500D5CE25 /* Json Animations */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAB648A42918D09500D5CE25 /* Json Animations */ = {
+			isa = PBXGroup;
+			children = (
+				FAB648A52918D10500D5CE25 /* loading_animation.json */,
+			);
+			path = "Json Animations";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB6487C2918B4D600D5CE25 /* Bongo Talkies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB648912918B4D700D5CE25 /* Build configuration list for PBXNativeTarget "Bongo Talkies" */;
+			buildPhases = (
+				E2F34F7512163E84BA38D823 /* [CP] Check Pods Manifest.lock */,
+				FAB648792918B4D600D5CE25 /* Sources */,
+				FAB6487A2918B4D600D5CE25 /* Frameworks */,
+				FAB6487B2918B4D600D5CE25 /* Resources */,
+				25A1398E27177AF3B547123F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bongo Talkies";
+			productName = "Bongo Talkies";
+			productReference = FAB6487D2918B4D600D5CE25 /* Bongo Talkies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB648752918B4D600D5CE25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FAB6487C2918B4D600D5CE25 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = FAB648782918B4D600D5CE25 /* Build configuration list for PBXProject "Bongo Talkies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB648742918B4D600D5CE25;
+			productRefGroup = FAB6487E2918B4D600D5CE25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB6487C2918B4D600D5CE25 /* Bongo Talkies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB6487B2918B4D600D5CE25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB6488D2918B4D700D5CE25 /* LaunchScreen.storyboard in Resources */,
+				FAB6488A2918B4D700D5CE25 /* Assets.xcassets in Resources */,
+				FAB648882918B4D600D5CE25 /* Main.storyboard in Resources */,
+				FAB648A62918D10500D5CE25 /* loading_animation.json in Resources */,
+				FA58748B29190AF7000F2042 /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25A1398E27177AF3B547123F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bongo Talkies/Pods-Bongo Talkies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bongo Talkies/Pods-Bongo Talkies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bongo Talkies/Pods-Bongo Talkies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2F34F7512163E84BA38D823 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bongo Talkies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB648792918B4D600D5CE25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB648812918B4D600D5CE25 /* AppDelegate.swift in Sources */,
+				FA587499291A0E4E000F2042 /* UIImage.swift in Sources */,
+				FA587497291979A4000F2042 /* Dictionary.swift in Sources */,
+				FAB648972918B5B100D5CE25 /* DetailsVC.swift in Sources */,
+				FA58748D29190F16000F2042 /* LoadingManager.swift in Sources */,
+				FA58748F29192475000F2042 /* TopRatedMovieDetails.swift in Sources */,
+				FAB648952918B59E00D5CE25 /* ThumbnailsVC.swift in Sources */,
+				FA58749229192F2C000F2042 /* TopRatedMovieCell.swift in Sources */,
+				FA587494291970ED000F2042 /* RequestManager.swift in Sources */,
+				FA587489291909EC000F2042 /* LoadingView.swift in Sources */,
+				FAB6489C2918C40E00D5CE25 /* AppConstants.swift in Sources */,
+				FA58749B291A204F000F2042 /* MovieDetails.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAB648862918B4D600D5CE25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB648872918B4D600D5CE25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAB6488B2918B4D700D5CE25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB6488C2918B4D700D5CE25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB6488F2918B4D700D5CE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAB648902918B4D700D5CE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB648922918B4D700D5CE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B69CD6F5F2ABE96ABAC6E77D /* Pods-Bongo Talkies.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 385SYKK4WX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bongo Talkies/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.Bongo-Talkies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAB648932918B4D700D5CE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05AC2922986E47BE5DEFE002 /* Pods-Bongo Talkies.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 385SYKK4WX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bongo Talkies/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.Bongo-Talkies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB648782918B4D600D5CE25 /* Build configuration list for PBXProject "Bongo Talkies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB6488F2918B4D700D5CE25 /* Debug */,
+				FAB648902918B4D700D5CE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB648912918B4D700D5CE25 /* Build configuration list for PBXNativeTarget "Bongo Talkies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB648922918B4D700D5CE25 /* Debug */,
+				FAB648932918B4D700D5CE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB648752918B4D600D5CE25 /* Project object */;
+}

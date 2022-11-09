@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (5.5.0)
+  - lottie-ios (3.3.0)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - TTGTagCollectionView (2.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - lottie-ios
+  - SDWebImage
+  - TTGTagCollectionView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - lottie-ios
+    - SDWebImage
+    - TTGTagCollectionView
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  TTGTagCollectionView: a2a8668c659b39e7a6ffd6590475ea53a7ae95f7
+
+PODFILE CHECKSUM: f3c9ef7b357f7c5b12e3f68f31ce602f19a853ad
+
+COCOAPODS: 1.11.3
